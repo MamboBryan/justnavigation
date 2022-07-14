@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph_donut"
+    app:startDestination="@id/donutFragment">
+
+    <fragment
+        android:id="@+id/donutFragment"
+        android:name="com.mambobryan.features.donut.DonutFragment"
+        android:label="fragment_donut"
+        tools:layout="@layout/fragment_donut" />
+</navigation>
